@@ -82,7 +82,7 @@ public class ProjekAkhir {
 
             //calculation
             if (inputBalance == 0) {
-                remainingBalance = loanAmount;
+                remainingBalance = 0;
             }
             remainingdebt = loanAmount - remainingBalance;
             monthlyInterest = loanTerm * interest * remainingdebt;
@@ -112,13 +112,10 @@ public class ProjekAkhir {
             System.out.println(cName +" The remaining loan that you have to pay now is: Rp."+remainingInstallments);
             System.out.println("-- THANK YOU FOR PAYING THE INSTALLMENT --\n");
 
-            
-    
         }
         }   
         }
-
-
+        
 
     }
 }
